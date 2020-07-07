@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package go.micro.service.campaign;
+
+service Campaign {
+	rpc Create(NewCampaignRequest) returns (Response) {}
+	rpc Get(CampaignByIdRequest) returns (CampaignResponse) {}
+	rpc GetByTag(CampaignByTagRequest) returns (CampaignResponse) {}
+}
+
+message NewCampaignRequest {
+	string campaignName = 1;
+	string description = 2;
+	string purpose = 3;
+	string campaignTag = 4;
+	string startDateTime = 5;
+	string endDateTime = 6;
+	string templateId = 7;
+	string createdBy = 8;
+}
+
+message Response {
+	string message = 1;
+	bool status = 2;
+}
+
+message CampaignByIdRequest {
+	string campaignId = 1;
+}
+
+message CampaignByTagRequest {
+	string campaignTag = 1;
+}
+
+message CampaignResponse {
+	string id = 1;
+	string campaignName = 2;
+	string description = 3;
+	string purpose = 4;
+	string campaignTag = 5;
+	string startDateTime = 6;
+	string endDateTime = 7;
+	string templateId = 8;
+	string createdBy = 9;
+}
