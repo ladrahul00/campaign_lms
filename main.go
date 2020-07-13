@@ -3,10 +3,10 @@ package main
 import (
 	"github.com/micro/go-micro/v2"
 	log "github.com/micro/go-micro/v2/logger"
-	"github.com/wolf00/golang_lms/campaign/client"
-	"github.com/wolf00/golang_lms/campaign/handler"
+	"github.com/wolf00/campaign_lms/client"
+	"github.com/wolf00/campaign_lms/handler"
 
-	campaign "github.com/wolf00/golang_lms/campaign/proto/campaign"
+	campaign "github.com/wolf00/campaign_lms/proto/campaign"
 )
 
 func main() {

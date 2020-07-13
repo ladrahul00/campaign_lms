@@ -5,8 +5,8 @@ import (
 
 	"github.com/micro/go-micro/v2"
 	"github.com/micro/go-micro/v2/server"
-	"github.com/wolf00/golang_lms/campaign/constants"
-	lead_template "github.com/wolf00/golang_lms/lead_template/proto/lead_template"
+	"github.com/wolf00/campaign_lms/constants"
+	lead_template "github.com/wolf00/lead_template_lms/proto/lead_template"
 )
 
 type leadTemplateKey struct{}

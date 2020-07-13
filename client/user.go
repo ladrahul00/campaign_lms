@@ -5,7 +5,7 @@ package client
 
 // 	"github.com/micro/go-micro/v2"
 // 	"github.com/micro/go-micro/v2/server"
-// 	"github.com/wolf00/golang_lms/campaign/constants"
+// 	"github.com/wolf00/campaign_lms/constants"
 // 	user "github.com/wolf00/golang_lms/user/proto/user"
 // )
 

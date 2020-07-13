@@ -5,11 +5,11 @@ import (
 
 	"github.com/micro/go-micro/errors"
 	"github.com/micro/go-micro/v2/util/log"
-	"github.com/wolf00/golang_lms/campaign/client"
-	"github.com/wolf00/golang_lms/campaign/constants"
+	"github.com/wolf00/campaign_lms/client"
+	"github.com/wolf00/campaign_lms/constants"
 	"github.com/wolf00/golang_lms/lead_template/db/models"
 
-	leadTemplateProto "github.com/wolf00/golang_lms/lead_template/proto/lead_template"
+	leadTemplateProto "github.com/wolf00/lead_template_lms/proto/lead_template"
 )
 
 // LeadTemplateClientService to get

@@ -3,8 +3,8 @@ package handler
 import (
 	"context"
 
-	campaign "github.com/wolf00/golang_lms/campaign/proto/campaign"
-	services "github.com/wolf00/golang_lms/campaign/services"
+	campaign "github.com/wolf00/campaign_lms/proto/campaign"
+	services "github.com/wolf00/campaign_lms/services"
 )
 
 type CampaignServiceHandler struct {

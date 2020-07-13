@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/micro/go-micro/v2/util/log"
-	"github.com/wolf00/golang_lms/campaign/db"
-	"github.com/wolf00/golang_lms/campaign/db/models"
-	"github.com/wolf00/golang_lms/campaign/utilities"
+	"github.com/wolf00/campaign_lms/db"
+	"github.com/wolf00/campaign_lms/db/models"
+	"github.com/wolf00/campaign_lms/utilities"
 
-	campaign "github.com/wolf00/golang_lms/campaign/proto/campaign"
+	campaign "github.com/wolf00/campaign_lms/proto/campaign"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
