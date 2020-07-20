@@ -7,7 +7,7 @@ import (
 	"github.com/micro/go-micro/v2/util/log"
 	"github.com/wolf00/campaign_lms/client"
 	"github.com/wolf00/campaign_lms/constants"
-	"github.com/wolf00/golang_lms/lead_template/db/models"
+	"github.com/wolf00/lead_template_lms/db/models"
 
 	leadTemplateProto "github.com/wolf00/lead_template_lms/proto/lead_template"
 )

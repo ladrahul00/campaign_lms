@@ -11,6 +11,7 @@ const (
 	InvalidEmailFormat = "email format is invalid"
 )
 
+// ...
 const (
 	UserService         = "go.micro.service.user"
 	LeadTemplateService = "go.micro.service.lead_template"

@@ -18,7 +18,7 @@ func main() {
 
 	// Initialise service
 	service.Init(
-		// micro.WrapHandler(client.UserWrapper(service))
+		// micro.WrapHandler(client.UserWrapper(service)),
 		micro.WrapHandler(client.LeadTemplateWrapper(service)),
 	)
 
